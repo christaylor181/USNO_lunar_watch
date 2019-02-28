@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc" pageOrientation="vertical">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller spacing="0.0" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="lunar_watch1_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="136" height="173" alignment="center" contentMode="scaleAspectFill" layout="vertical" id="sN9-aP-Lfh">
+                            <items>
+                                <label width="136" height="59" alignment="left" text="LUNAR" textAlignment="center" baselineAdjustment="alignCenters" id="j6T-DM-0Mx">
+                                    <fontDescription key="font" type="system" pointSize="29"/>
+                                </label>
+                                <group width="136" height="40" alignment="left" verticalAlignment="bottom" layout="overlap" id="xkZ-kZ-jNg">
+                                    <items>
+                                        <group width="44" height="68" alignment="right" layout="vertical" id="RYP-1e-Xyh">
+                                            <items>
+                                                <label width="95" alignment="right" text="-- : --" textAlignment="left" id="2PM-ZY-Cyb">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="105" alignment="right" text="-- : --" textAlignment="left" id="gSc-TO-ddR">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="108" alignment="right" text="-- : --" textAlignment="left" id="54E-YK-hla">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                        <group width="92" height="62" alignment="left" layout="vertical" id="gUO-Z9-WOx">
+                                            <items>
+                                                <label width="86" alignment="left" text="RISE" textAlignment="right" id="avI-zJ-K5e">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="86" alignment="left" text="TRANSIT" textAlignment="right" id="V9t-6m-LXg">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                                <label width="86" alignment="left" text="SET" textAlignment="right" id="HZF-4e-Ehh">
+                                                    <fontDescription key="font" type="system" pointSize="10"/>
+                                                </label>
+                                            </items>
+                                        </group>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="moonImageGrp" destination="sN9-aP-Lfh" id="cfc-Lz-dh1"/>
+                        <outlet property="riseLabel" destination="2PM-ZY-Cyb" id="dji-HO-T1z"/>
+                        <outlet property="setLabel" destination="54E-YK-hla" id="62S-vE-H1p"/>
+                        <outlet property="transitLabel" destination="gSc-TO-ddR" id="x0H-dk-bAD"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="218.82051282051285" y="383.15384615384619"/>
+        </scene>
+    </scenes>
+</document>

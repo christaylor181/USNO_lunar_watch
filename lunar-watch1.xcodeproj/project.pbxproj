@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB037C3A1FB416C80028AA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB037C391FB416C80028AA0A /* AppDelegate.swift */; };
+		EB037C3C1FB416C80028AA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB037C3B1FB416C80028AA0A /* ViewController.swift */; };
+		EB037C3F1FB416C80028AA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB037C3D1FB416C80028AA0A /* Main.storyboard */; };
+		EB037C411FB416C80028AA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB037C401FB416C80028AA0A /* Assets.xcassets */; };
+		EB037C441FB416C80028AA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB037C421FB416C80028AA0A /* LaunchScreen.storyboard */; };
+		EB037C491FB416C80028AA0A /* lunar-watch1 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = EB037C481FB416C80028AA0A /* lunar-watch1 WatchKit App.app */; };
+		EB037C4F1FB416C80028AA0A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB037C4D1FB416C80028AA0A /* Interface.storyboard */; };
+		EB037C511FB416C80028AA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB037C501FB416C80028AA0A /* Assets.xcassets */; };
+		EB037C581FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EB037C571FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		EB037C5D1FB416C80028AA0A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB037C5C1FB416C80028AA0A /* InterfaceController.swift */; };
+		EB037C5F1FB416C80028AA0A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB037C5E1FB416C80028AA0A /* ExtensionDelegate.swift */; };
+		EB037C611FB416C80028AA0A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB037C601FB416C80028AA0A /* NotificationController.swift */; };
+		EB037C631FB416C80028AA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB037C621FB416C80028AA0A /* Assets.xcassets */; };
+		EB055FB21FC68ADA00838DBE /* lunar1wIcon80.png in Resources */ = {isa = PBXBuildFile; fileRef = EB055FB11FC68AD900838DBE /* lunar1wIcon80.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB037C4A1FB416C80028AA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB037C2E1FB416C70028AA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB037C471FB416C80028AA0A;
+			remoteInfo = "lunar-watch1 WatchKit App";
+		};
+		EB037C591FB416C80028AA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB037C2E1FB416C70028AA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB037C561FB416C80028AA0A;
+			remoteInfo = "lunar-watch1 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB037C6B1FB416C80028AA0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EB037C581FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB037C6F1FB416C80028AA0A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				EB037C491FB416C80028AA0A /* lunar-watch1 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB037C361FB416C80028AA0A /* lunar-watch1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-watch1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB037C391FB416C80028AA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB037C3B1FB416C80028AA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB037C3E1FB416C80028AA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB037C401FB416C80028AA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB037C431FB416C80028AA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB037C451FB416C80028AA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB037C481FB416C80028AA0A /* lunar-watch1 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lunar-watch1 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB037C4E1FB416C80028AA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EB037C501FB416C80028AA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB037C521FB416C80028AA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB037C571FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lunar-watch1 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB037C5C1FB416C80028AA0A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		EB037C5E1FB416C80028AA0A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		EB037C601FB416C80028AA0A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		EB037C621FB416C80028AA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB037C641FB416C80028AA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB037C651FB416C80028AA0A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		EB055FB11FC68AD900838DBE /* lunar1wIcon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lunar1wIcon80.png; path = ../../../../OneDrive/SVG/lunar1wIcon80.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB037C331FB416C80028AA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB037C541FB416C80028AA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB037C2D1FB416C70028AA0A = {
+			isa = PBXGroup;
+			children = (
+				EB037C381FB416C80028AA0A /* lunar-watch1 */,
+				EB037C4C1FB416C80028AA0A /* lunar-watch1 WatchKit App */,
+				EB037C5B1FB416C80028AA0A /* lunar-watch1 WatchKit Extension */,
+				EB037C371FB416C80028AA0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB037C371FB416C80028AA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB037C361FB416C80028AA0A /* lunar-watch1.app */,
+				EB037C481FB416C80028AA0A /* lunar-watch1 WatchKit App.app */,
+				EB037C571FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB037C381FB416C80028AA0A /* lunar-watch1 */ = {
+			isa = PBXGroup;
+			children = (
+				EB037C391FB416C80028AA0A /* AppDelegate.swift */,
+				EB037C3B1FB416C80028AA0A /* ViewController.swift */,
+				EB037C3D1FB416C80028AA0A /* Main.storyboard */,
+				EB037C401FB416C80028AA0A /* Assets.xcassets */,
+				EB037C421FB416C80028AA0A /* LaunchScreen.storyboard */,
+				EB037C451FB416C80028AA0A /* Info.plist */,
+			);
+			path = "lunar-watch1";
+			sourceTree = "<group>";
+		};
+		EB037C4C1FB416C80028AA0A /* lunar-watch1 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EB037C4D1FB416C80028AA0A /* Interface.storyboard */,
+				EB037C501FB416C80028AA0A /* Assets.xcassets */,
+				EB055FB11FC68AD900838DBE /* lunar1wIcon80.png */,
+				EB037C521FB416C80028AA0A /* Info.plist */,
+			);
+			path = "lunar-watch1 WatchKit App";
+			sourceTree = "<group>";
+		};
+		EB037C5B1FB416C80028AA0A /* lunar-watch1 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB037C5C1FB416C80028AA0A /* InterfaceController.swift */,
+				EB037C5E1FB416C80028AA0A /* ExtensionDelegate.swift */,
+				EB037C601FB416C80028AA0A /* NotificationController.swift */,
+				EB037C621FB416C80028AA0A /* Assets.xcassets */,
+				EB037C641FB416C80028AA0A /* Info.plist */,
+				EB037C651FB416C80028AA0A /* PushNotificationPayload.apns */,
+			);
+			path = "lunar-watch1 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB037C351FB416C80028AA0A /* lunar-watch1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB037C701FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1" */;
+			buildPhases = (
+				EB037C321FB416C80028AA0A /* Sources */,
+				EB037C331FB416C80028AA0A /* Frameworks */,
+				EB037C341FB416C80028AA0A /* Resources */,
+				EB037C6F1FB416C80028AA0A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB037C4B1FB416C80028AA0A /* PBXTargetDependency */,
+			);
+			name = "lunar-watch1";
+			productName = "lunar-watch1";
+			productReference = EB037C361FB416C80028AA0A /* lunar-watch1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB037C471FB416C80028AA0A /* lunar-watch1 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB037C6C1FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1 WatchKit App" */;
+			buildPhases = (
+				EB037C461FB416C80028AA0A /* Resources */,
+				EB037C6B1FB416C80028AA0A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB037C5A1FB416C80028AA0A /* PBXTargetDependency */,
+			);
+			name = "lunar-watch1 WatchKit App";
+			productName = "lunar-watch1 WatchKit App";
+			productReference = EB037C481FB416C80028AA0A /* lunar-watch1 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		EB037C561FB416C80028AA0A /* lunar-watch1 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB037C681FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1 WatchKit Extension" */;
+			buildPhases = (
+				EB037C531FB416C80028AA0A /* Sources */,
+				EB037C541FB416C80028AA0A /* Frameworks */,
+				EB037C551FB416C80028AA0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lunar-watch1 WatchKit Extension";
+			productName = "lunar-watch1 WatchKit Extension";
+			productReference = EB037C571FB416C80028AA0A /* lunar-watch1 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB037C2E1FB416C70028AA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Chris Taylor";
+				TargetAttributes = {
+					EB037C351FB416C80028AA0A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EB037C471FB416C80028AA0A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					EB037C561FB416C80028AA0A = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EB037C311FB416C70028AA0A /* Build configuration list for PBXProject "lunar-watch1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB037C2D1FB416C70028AA0A;
+			productRefGroup = EB037C371FB416C80028AA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB037C351FB416C80028AA0A /* lunar-watch1 */,
+				EB037C471FB416C80028AA0A /* lunar-watch1 WatchKit App */,
+				EB037C561FB416C80028AA0A /* lunar-watch1 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB037C341FB416C80028AA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB037C441FB416C80028AA0A /* LaunchScreen.storyboard in Resources */,
+				EB037C411FB416C80028AA0A /* Assets.xcassets in Resources */,
+				EB037C3F1FB416C80028AA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB037C461FB416C80028AA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB037C511FB416C80028AA0A /* Assets.xcassets in Resources */,
+				EB037C4F1FB416C80028AA0A /* Interface.storyboard in Resources */,
+				EB055FB21FC68ADA00838DBE /* lunar1wIcon80.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB037C551FB416C80028AA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB037C631FB416C80028AA0A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB037C321FB416C80028AA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB037C3C1FB416C80028AA0A /* ViewController.swift in Sources */,
+				EB037C3A1FB416C80028AA0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB037C531FB416C80028AA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB037C611FB416C80028AA0A /* NotificationController.swift in Sources */,
+				EB037C5F1FB416C80028AA0A /* ExtensionDelegate.swift in Sources */,
+				EB037C5D1FB416C80028AA0A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB037C4B1FB416C80028AA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB037C471FB416C80028AA0A /* lunar-watch1 WatchKit App */;
+			targetProxy = EB037C4A1FB416C80028AA0A /* PBXContainerItemProxy */;
+		};
+		EB037C5A1FB416C80028AA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB037C561FB416C80028AA0A /* lunar-watch1 WatchKit Extension */;
+			targetProxy = EB037C591FB416C80028AA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB037C3D1FB416C80028AA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB037C3E1FB416C80028AA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB037C421FB416C80028AA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB037C431FB416C80028AA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EB037C4D1FB416C80028AA0A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB037C4E1FB416C80028AA0A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB037C661FB416C80028AA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB037C671FB416C80028AA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB037C691FB416C80028AA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				INFOPLIST_FILE = "lunar-watch1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		EB037C6A1FB416C80028AA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				INFOPLIST_FILE = "lunar-watch1 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		EB037C6D1FB416C80028AA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				IBSC_MODULE = lunar_watch1_WatchKit_Extension;
+				INFOPLIST_FILE = "lunar-watch1 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Debug;
+		};
+		EB037C6E1FB416C80028AA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				IBSC_MODULE = lunar_watch1_WatchKit_Extension;
+				INFOPLIST_FILE = "lunar-watch1 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.1;
+			};
+			name = Release;
+		};
+		EB037C711FB416C80028AA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				INFOPLIST_FILE = "lunar-watch1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB037C721FB416C80028AA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XETARP246Y;
+				INFOPLIST_FILE = "lunar-watch1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imipolex-g.lunar-watch1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB037C311FB416C70028AA0A /* Build configuration list for PBXProject "lunar-watch1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB037C661FB416C80028AA0A /* Debug */,
+				EB037C671FB416C80028AA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB037C681FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB037C691FB416C80028AA0A /* Debug */,
+				EB037C6A1FB416C80028AA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB037C6C1FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB037C6D1FB416C80028AA0A /* Debug */,
+				EB037C6E1FB416C80028AA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB037C701FB416C80028AA0A /* Build configuration list for PBXNativeTarget "lunar-watch1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB037C711FB416C80028AA0A /* Debug */,
+				EB037C721FB416C80028AA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB037C2E1FB416C70028AA0A /* Project object */;
+}
